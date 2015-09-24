@@ -20,7 +20,7 @@ public class MainActivity extends Activity {
         pressMeButton = (Button) findViewById(R.id.pressMeButton);
         pressMeButton.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this, "Press me", Toast.LENGTH_SHORT);
+                //Toast.makeText(MainActivity.this, "Press me", Toast.LENGTH_SHORT);
             }
         });
     }
